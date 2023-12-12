@@ -1,0 +1,280 @@
+@font-face {
+    font-family: FLC-Flix_FN;
+    src: url(font/Burbank\ Big\ Condensed\ Black.ttf);
+}
+
+body, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1{
+    font-family: FLC-Flix_FN;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style de base */
+body {
+    font-family: FLC-Flix_FN;
+    background: linear-gradient(to right, #101014, #101014, #ff0000, #0015ff);
+}
+
+.nav-logo{
+    width: 100px;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #101014;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+nav {
+    margin-right: auto;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+nav li {
+    margin-left: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #F7FF19;
+}
+
+/*Style pour le body */
+.body-img{
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.img-subtitle{
+    margin-left: 70px;
+    font-family: Arial;
+    color: #fff;
+    font-size: 1em;
+}
+
+.fn-link{
+    background-color: #F7FF19;
+    border-color: #F7FF19;
+    margin-left: 120px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.fn-link:hover{
+    background-color: #fbff7a;
+    border-color: #fbff7a;
+    margin-left: 120px;
+    width: 200px;
+    height: 50px;
+}
+
+.fn-link2{
+    background-color: #F7FF19;
+    border-color: #F7FF19;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.fn-link2:hover{
+    background-color: #fbff7a;
+    border-color: #fbff7a;
+    width: 300px;
+    height: 50px;
+}
+
+.fn-link-a{
+    color: #000000;
+    font-family: FLC-Flix_FN;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.fn-a{
+    color: #fff;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.fn-a:hover{
+    color: #F7FF19;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+/* Style du contenu */
+.fn-content {
+    margin-top: 200px;
+    background-color: #101014;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.fn-content h2 {
+    font-size: 24px;
+    color: #0f9900;
+    margin-bottom: 10px;
+}
+
+.fn-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.fn-title{
+    font-size: 3em;
+}
+
+/* Style du pied de page */
+
+.timer{
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+}
+
+.games{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width : 768px){
+    header {
+        background-color: #101014;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    nav {
+        margin-right: auto;
+        display: none;
+        visibility: hidden;
+    }
+      
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+      
+    nav li {
+        margin-left: 5px;
+    }
+    
+    header nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    header nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1em;
+    }
+    
+    header nav ul li a:hover {
+        text-decoration: underline;
+        color: #F7FF19;
+    }
+
+    body {
+        font-family: FLC-Flix_FN;
+        background: linear-gradient(to bottom, #101014, #ff0000, #0015ff);
+    }
+    
+    .nav-logo{
+        width: 50px;
+    }
+    
+    .body-img{
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-subtitle{
+        margin-left: 0px;
+        text-align: center;
+        font-size: 0.8em;
+        font-family: Arial;
+        color: #fff;
+        font-size: 1em;
+    }
+
+    .fn-link{
+        background-color: #F7FF19;
+        border-color: #F7FF19;
+        margin-left: 60px;
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .fn-link:hover{
+        background-color: #fbff7a;
+        border-color: #fbff7a;
+        margin-left: 60px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .fn-link2{
+        background-color: #F7FF19;
+        border-color: #F7FF19;
+        margin-bottom: 50px;
+        width: 300px;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .fn-link2:hover{
+        background-color: #fbff7a;
+        border-color: #fbff7a;
+        width: 300px;
+        height: 50px;
+    }
+
+    .fn-link-a{
+        color: #000000;
+        font-family: FLC-Flix_FN;
+        text-decoration: none;
+        font-size: 2em;
+        text-align: center;
+    }
+}
